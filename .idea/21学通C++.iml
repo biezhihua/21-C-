@@ -2,9 +2,9 @@
 <module type="CPP_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/第十四章_宏和模板简介/14_2.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/第四章_管理数组和字符串/14_4.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/第十二章_运算符类型和运算符重载/12_9.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/第十二章_运算符类型和运算符重载/12_8.cpp" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
