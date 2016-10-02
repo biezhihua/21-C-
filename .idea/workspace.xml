@@ -12,19 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae22b4e3-82fc-4b48-a9e3-53d32fbfb9b9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十七章_STL_动态数组类/17_1.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十七章_STL_动态数组类/17_2.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十七章_STL_动态数组类/17_3.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十七章_STL_动态数组类/17_4.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十七章_STL_动态数组类/17_5.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十五章_标准模板库简介/15_1.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十六章_STL_string类/16_1.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十六章_STL_string类/16_2.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十六章_STL_string类/16_3.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十六章_STL_string类/16_4.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十六章_STL_string类/16_5.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十六章_STL_string类/16_7.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章_管理数组和字符串/14_5.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十九章_STL集合类/19_1.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十九章_STL集合类/19_2.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十九章_STL集合类/19_3.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十九章_STL集合类/19_4.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十九章_STL集合类/19_5.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第十九章_STL集合类/19_6.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/21学通C++.iml" afterPath="$PROJECT_DIR$/.idea/21学通C++.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
@@ -38,7 +31,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -51,43 +43,86 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="75">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="17_3.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第十七章_STL_动态数组类/17_3.cpp">
+      <file leaf-file-name="19_5.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第十九章_STL集合类/19_5.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="17_5.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第十七章_STL_动态数组类/17_5.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
+            <state relative-caret-position="368">
+              <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
               <folding>
-                <element signature="e#43#62#0" expanded="true" />
+                <element signature="e#45#59#0" expanded="true" />
+                <element signature="e#129#141#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="17_4.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第十七章_STL_动态数组类/17_4.cpp">
+      <file leaf-file-name="19_6.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第十九章_STL集合类/19_6.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+            <state relative-caret-position="345">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <element signature="e#42#61#0" expanded="true" />
-                <marker date="1474989998581" expanded="true" signature="114:630" ph="{...}" />
+                <element signature="e#45#69#0" expanded="true" />
+                <element signature="e#121#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="19_4.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第十九章_STL集合类/19_4.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding>
+                <element signature="e#45#59#0" expanded="true" />
+                <element signature="e#111#123#0" expanded="true" />
+                <marker date="1475395301000" expanded="true" signature="161:287" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="19_3.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第十九章_STL集合类/19_3.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="e#97#111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="19_1.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第十九章_STL集合类/19_1.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+              <folding>
+                <element signature="e#94#107#0" expanded="true" />
+                <marker date="1475391918000" expanded="true" signature="240:419" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="19_2.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第十九章_STL集合类/19_2.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding>
+                <element signature="e#45#59#0" expanded="true" />
+                <element signature="e#111#123#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,12 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/第八章_阐述指针和引用/8_18.cpp" />
-        <option value="$PROJECT_DIR$/第八章_阐述指针和引用/8_19.cpp" />
-        <option value="$PROJECT_DIR$/第九章_类和对象/Human.cpp" />
-        <option value="$PROJECT_DIR$/第九章_类和对象/Human.h" />
-        <option value="$PROJECT_DIR$/第九章_类和对象/9_3.cpp" />
-        <option value="$PROJECT_DIR$/第九章_类和对象/9_4.cpp" />
         <option value="$PROJECT_DIR$/第九章_类和对象/9_6.cpp" />
         <option value="$PROJECT_DIR$/第九章_类和对象/9_7.cpp" />
         <option value="$PROJECT_DIR$/第九章_类和对象/9_8.cpp" />
@@ -150,8 +179,14 @@
         <option value="$PROJECT_DIR$/第十七章_STL_动态数组类/17_2.cpp" />
         <option value="$PROJECT_DIR$/第十七章_STL_动态数组类/17_3.cpp" />
         <option value="$PROJECT_DIR$/第十七章_STL_动态数组类/17_4.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/第十七章_STL_动态数组类/17_5.cpp" />
+        <option value="$PROJECT_DIR$/第十九章_STL集合类/19_1.cpp" />
+        <option value="$PROJECT_DIR$/第十九章_STL集合类/19_2.cpp" />
+        <option value="$PROJECT_DIR$/第十九章_STL集合类/19_3.cpp" />
+        <option value="$PROJECT_DIR$/第十九章_STL集合类/19_4.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/第十九章_STL集合类/19_5.cpp" />
+        <option value="$PROJECT_DIR$/第十九章_STL集合类/19_6.cpp" />
       </list>
     </option>
   </component>
@@ -163,10 +198,8 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="24" />
-    <option name="width" value="1317" />
-    <option name="height" value="744" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -191,7 +224,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -213,31 +246,31 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="21学通C++" />
+              <option name="myItemId" value="21-C-" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="21学通C++" />
+              <option name="myItemId" value="21-C-" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="21学通C++" />
+              <option name="myItemId" value="21-C-" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="21学通C++" />
+              <option name="myItemId" value="21-C-" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="21学通C++" />
+              <option name="myItemId" value="21-C-" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="第十七章_STL_动态数组类" />
+              <option name="myItemId" value="第十九章_STL集合类" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,6 +283,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistoryKey" value="basi&#9;FILE&#9;file:///usr/include/c++/5/bits/basic_string.h&#10;basic_sy&#9;null&#9;null&#10;string&#9;FILE&#9;file:///home/biezhihua/workspace/ClionProjects/21学通C++/第四章_管理数组和字符串/string.cpp" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -445,20 +479,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473346506353</updated>
+      <workItem from="1475390613844" duration="5610000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5610000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="24" width="1317" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2252322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20555556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270809" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35993487" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35990623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29641694" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -510,48 +548,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/第九章_类和对象/9_6.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第九章_类和对象/9_7.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="39" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第九章_类和对象/9_8.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="53" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第九章_类和对象/9_9.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第八章_阐述指针和引用/8_17.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第九章_类和对象/9_10.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/第九章_类和对象/9_11.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -636,13 +632,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/5/bits/stringfwd.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/include/c++/5/bits/stringfwd.h" />
     <entry file="file://$PROJECT_DIR$/第十二章_运算符类型和运算符重载/12_2.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -657,13 +647,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/5/bits/unique_ptr.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2538">
-          <caret line="136" column="4" selection-start-line="136" selection-start-column="4" selection-end-line="136" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/include/c++/5/bits/unique_ptr.h" />
     <entry file="file://$PROJECT_DIR$/第十二章_运算符类型和运算符重载/12_4.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -762,38 +746,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/5/bits/streambuf_iterator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="368" column="4" selection-start-line="368" selection-start-column="4" selection-end-line="368" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/include/c++/5/bits/streambuf_iterator.h" />
     <entry file="file://$PROJECT_DIR$/第十六章_STL_string类/16_7.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/5/bits/locale_facets.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57992">
-          <caret line="2636" column="2" selection-start-line="2636" selection-start-column="2" selection-end-line="2636" selection-end-column="2" />
-          <folding>
-            <element signature="e#91643#91660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/include/c++/5/bits/locale_facets.h" />
     <entry file="file://$PROJECT_DIR$/第十六章_STL_string类/16_3.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#42#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,25 +766,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#42#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/5/bits/basic_string.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41492">
-          <caret line="1886" column="6" selection-start-line="1886" selection-start-column="6" selection-end-line="1886" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/include/c++/5/bits/basic_string.h" />
     <entry file="file://$PROJECT_DIR$/第十六章_STL_string类/16_1.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,9 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-          <folding>
-            <element signature="e#42#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,9 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#43#60#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,34 +802,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="e#43#62#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/第十七章_STL_动态数组类/17_4.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
+        <state relative-caret-position="375">
           <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
           <folding>
             <element signature="e#42#61#0" expanded="true" />
-            <marker date="1474989998581" expanded="true" signature="114:630" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/第十七章_STL_动态数组类/17_3.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
+        <state relative-caret-position="480">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
@@ -890,10 +825,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/第十七章_STL_动态数组类/17_5.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
+        <state relative-caret-position="345">
           <caret line="23" column="61" selection-start-line="23" selection-start-column="61" selection-end-line="23" selection-end-column="61" />
           <folding>
-            <element signature="e#43#62#0" expanded="true" />
+            <element signature="e#43#62#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第十九章_STL集合类/19_1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding>
+            <element signature="e#94#107#0" expanded="true" />
+            <marker date="1475391918000" expanded="true" signature="240:419" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第十九章_STL集合类/19_3.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#97#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第十九章_STL集合类/19_4.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#59#0" expanded="true" />
+            <element signature="e#111#123#0" expanded="true" />
+            <marker date="1475395301000" expanded="true" signature="161:287" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第十九章_STL集合类/19_2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#59#0" expanded="true" />
+            <element signature="e#111#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第十九章_STL集合类/19_5.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+          <folding>
+            <element signature="e#45#59#0" expanded="true" />
+            <element signature="e#129#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第十九章_STL集合类/19_6.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#69#0" expanded="true" />
+            <element signature="e#121#133#0" expanded="true" />
           </folding>
         </state>
       </provider>
