@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/biezhihua/studyspace/21-C-/第二十八章_异常处理/test.cpp
+iostream
+-
+string
+-
+pthread.h
+-
+
