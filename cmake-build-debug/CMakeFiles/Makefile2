@@ -54,45 +54,45 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/biezhihua/studyspace/21-C-
+CMAKE_SOURCE_DIR = /Users/biezhihua/studyspace/21天学通CPlusPlus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/biezhihua/studyspace/21-C-/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/biezhihua/studyspace/21天学通CPlusPlus/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/21C__.dir
+# Target rules for target CMakeFiles/21CPlusPlus.dir
 
 # All Build rule for target.
-CMakeFiles/21C__.dir/all:
-	$(MAKE) -f CMakeFiles/21C__.dir/build.make CMakeFiles/21C__.dir/depend
-	$(MAKE) -f CMakeFiles/21C__.dir/build.make CMakeFiles/21C__.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/biezhihua/studyspace/21-C-/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 21C__"
-.PHONY : CMakeFiles/21C__.dir/all
+CMakeFiles/21CPlusPlus.dir/all:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/depend
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/biezhihua/studyspace/21天学通CPlusPlus/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 21CPlusPlus"
+.PHONY : CMakeFiles/21CPlusPlus.dir/all
 
 # Include target in all.
-all: CMakeFiles/21C__.dir/all
+all: CMakeFiles/21CPlusPlus.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/21C__.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/biezhihua/studyspace/21-C-/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/21C__.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/biezhihua/studyspace/21-C-/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/21C__.dir/rule
+CMakeFiles/21CPlusPlus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/biezhihua/studyspace/21天学通CPlusPlus/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/21CPlusPlus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/biezhihua/studyspace/21天学通CPlusPlus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/21CPlusPlus.dir/rule
 
 # Convenience name for target.
-21C__: CMakeFiles/21C__.dir/rule
+21CPlusPlus: CMakeFiles/21CPlusPlus.dir/rule
 
-.PHONY : 21C__
-
-# clean rule for target.
-CMakeFiles/21C__.dir/clean:
-	$(MAKE) -f CMakeFiles/21C__.dir/build.make CMakeFiles/21C__.dir/clean
-.PHONY : CMakeFiles/21C__.dir/clean
+.PHONY : 21CPlusPlus
 
 # clean rule for target.
-clean: CMakeFiles/21C__.dir/clean
+CMakeFiles/21CPlusPlus.dir/clean:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/clean
+.PHONY : CMakeFiles/21CPlusPlus.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/21CPlusPlus.dir/clean
 
 .PHONY : clean
 

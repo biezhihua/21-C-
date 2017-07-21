@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/biezhihua/studyspace/21-C-
+CMAKE_SOURCE_DIR = /Users/biezhihua/studyspace/21天学通CPlusPlus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/biezhihua/studyspace/21-C-/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/biezhihua/studyspace/21天学通CPlusPlus/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/biezhihua/studyspace/21-C-/cmake-build-debug/CMakeFiles /Users/biezhihua/studyspace/21-C-/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/biezhihua/studyspace/21天学通CPlusPlus/cmake-build-debug/CMakeFiles /Users/biezhihua/studyspace/21天学通CPlusPlus/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/biezhihua/studyspace/21-C-/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/biezhihua/studyspace/21天学通CPlusPlus/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 21C__
+# Target rules for targets named 21CPlusPlus
 
 # Build rule for target.
-21C__: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 21C__
-.PHONY : 21C__
+21CPlusPlus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 21CPlusPlus
+.PHONY : 21CPlusPlus
 
 # fast build rule for target.
-21C__/fast:
-	$(MAKE) -f CMakeFiles/21C__.dir/build.make CMakeFiles/21C__.dir/build
-.PHONY : 21C__/fast
+21CPlusPlus/fast:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/build
+.PHONY : 21CPlusPlus/fast
 
-第二十八章_异常处理/test.o: 第二十八章_异常处理/test.cpp.o
+lesson9_类和对象/Copy_construct_Line.o: lesson9_类和对象/Copy_construct_Line.cpp.o
 
-.PHONY : 第二十八章_异常处理/test.o
+.PHONY : lesson9_类和对象/Copy_construct_Line.o
 
 # target to build an object file
-第二十八章_异常处理/test.cpp.o:
-	$(MAKE) -f CMakeFiles/21C__.dir/build.make CMakeFiles/21C__.dir/第二十八章_异常处理/test.cpp.o
-.PHONY : 第二十八章_异常处理/test.cpp.o
+lesson9_类和对象/Copy_construct_Line.cpp.o:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/Copy_construct_Line.cpp.o
+.PHONY : lesson9_类和对象/Copy_construct_Line.cpp.o
 
-第二十八章_异常处理/test.i: 第二十八章_异常处理/test.cpp.i
+lesson9_类和对象/Copy_construct_Line.i: lesson9_类和对象/Copy_construct_Line.cpp.i
 
-.PHONY : 第二十八章_异常处理/test.i
+.PHONY : lesson9_类和对象/Copy_construct_Line.i
 
 # target to preprocess a source file
-第二十八章_异常处理/test.cpp.i:
-	$(MAKE) -f CMakeFiles/21C__.dir/build.make CMakeFiles/21C__.dir/第二十八章_异常处理/test.cpp.i
-.PHONY : 第二十八章_异常处理/test.cpp.i
+lesson9_类和对象/Copy_construct_Line.cpp.i:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/Copy_construct_Line.cpp.i
+.PHONY : lesson9_类和对象/Copy_construct_Line.cpp.i
 
-第二十八章_异常处理/test.s: 第二十八章_异常处理/test.cpp.s
+lesson9_类和对象/Copy_construct_Line.s: lesson9_类和对象/Copy_construct_Line.cpp.s
 
-.PHONY : 第二十八章_异常处理/test.s
+.PHONY : lesson9_类和对象/Copy_construct_Line.s
 
 # target to generate assembly for a file
-第二十八章_异常处理/test.cpp.s:
-	$(MAKE) -f CMakeFiles/21C__.dir/build.make CMakeFiles/21C__.dir/第二十八章_异常处理/test.cpp.s
-.PHONY : 第二十八章_异常处理/test.cpp.s
+lesson9_类和对象/Copy_construct_Line.cpp.s:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/Copy_construct_Line.cpp.s
+.PHONY : lesson9_类和对象/Copy_construct_Line.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... 21C__"
-	@echo "... 第二十八章_异常处理/test.o"
-	@echo "... 第二十八章_异常处理/test.i"
-	@echo "... 第二十八章_异常处理/test.s"
+	@echo "... 21CPlusPlus"
+	@echo "... lesson9_类和对象/Copy_construct_Line.o"
+	@echo "... lesson9_类和对象/Copy_construct_Line.i"
+	@echo "... lesson9_类和对象/Copy_construct_Line.s"
 .PHONY : help
 
 

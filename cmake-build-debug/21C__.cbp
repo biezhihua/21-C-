@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/biezhihua/studyspace/21-C-/第二十八章_异常处理/test.cpp">
+		<Unit filename="/Users/biezhihua/studyspace/21-C-/lesson9_类和对象/Copy_construct_Line.cpp">
 			<Option target="21C__"/>
 		</Unit>
 		<Unit filename="/Users/biezhihua/studyspace/21-C-/CMakeLists.txt">

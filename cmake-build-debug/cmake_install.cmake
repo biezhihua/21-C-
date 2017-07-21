@@ -1,4 +1,4 @@
-# Install script for directory: /Users/biezhihua/studyspace/21-C-
+# Install script for directory: /Users/biezhihua/studyspace/21天学通CPlusPlus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/biezhihua/studyspace/21-C-/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/biezhihua/studyspace/21天学通CPlusPlus/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
