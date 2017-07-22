@@ -17,7 +17,7 @@ int main() {
 
     GenData *genData = new GenData();
 
-    vector<float> *cubeData = genData->generatorCubeData(requestedCubeFactor, false, false)
+    vector<float> *cubeData = genData->generatorCubeData(requestedCubeFactor, false, false);
 
     CubesClientSide *cubesClientSide = new CubesClientSide(
             &GenData::CUBE_NORMAL_DATA,

@@ -35,7 +35,6 @@ public:
         return mCubeTextureCoordinates;
     }
 
-
     void renderer() override;
 
     void release() override;

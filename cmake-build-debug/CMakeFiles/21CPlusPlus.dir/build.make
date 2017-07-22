@@ -129,28 +129,28 @@ CMakeFiles/21CPlusPlus.dir/lesson7/CubesClientSide.cpp.o.provides: CMakeFiles/21
 CMakeFiles/21CPlusPlus.dir/lesson7/CubesClientSide.cpp.o.provides.build: CMakeFiles/21CPlusPlus.dir/lesson7/CubesClientSide.cpp.o
 
 
-CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o: CMakeFiles/21CPlusPlus.dir/flags.make
-CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o: ../lesson7/GenDataRunnable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/biezhihua/studyspace/21天学通CPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o -c /Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/GenDataRunnable.cpp
+CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o: CMakeFiles/21CPlusPlus.dir/flags.make
+CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o: ../lesson7/GenData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/biezhihua/studyspace/21天学通CPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o -c /Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/GenData.cpp
 
-CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/GenDataRunnable.cpp > CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.i
+CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/GenData.cpp > CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.i
 
-CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/GenDataRunnable.cpp -o CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.s
+CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/GenData.cpp -o CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.s
 
-CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o.requires:
+CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o.requires:
 
-.PHONY : CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o.requires
+.PHONY : CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o.requires
 
-CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o.provides: CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o.requires
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o.provides.build
-.PHONY : CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o.provides
+CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o.provides: CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o.requires
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o.provides.build
+.PHONY : CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o.provides
 
-CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o.provides.build: CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o
+CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o.provides.build: CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o
 
 
 # Object files for target 21CPlusPlus
@@ -158,7 +158,7 @@ CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o.provides.build: CMakeFi
 "CMakeFiles/21CPlusPlus.dir/lesson7/main.cpp.o" \
 "CMakeFiles/21CPlusPlus.dir/lesson7/Cubes.cpp.o" \
 "CMakeFiles/21CPlusPlus.dir/lesson7/CubesClientSide.cpp.o" \
-"CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o"
+"CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o"
 
 # External object files for target 21CPlusPlus
 21CPlusPlus_EXTERNAL_OBJECTS =
@@ -166,7 +166,7 @@ CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o.provides.build: CMakeFi
 21CPlusPlus: CMakeFiles/21CPlusPlus.dir/lesson7/main.cpp.o
 21CPlusPlus: CMakeFiles/21CPlusPlus.dir/lesson7/Cubes.cpp.o
 21CPlusPlus: CMakeFiles/21CPlusPlus.dir/lesson7/CubesClientSide.cpp.o
-21CPlusPlus: CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o
+21CPlusPlus: CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o
 21CPlusPlus: CMakeFiles/21CPlusPlus.dir/build.make
 21CPlusPlus: CMakeFiles/21CPlusPlus.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/biezhihua/studyspace/21天学通CPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable 21CPlusPlus"
@@ -180,7 +180,7 @@ CMakeFiles/21CPlusPlus.dir/build: 21CPlusPlus
 CMakeFiles/21CPlusPlus.dir/requires: CMakeFiles/21CPlusPlus.dir/lesson7/main.cpp.o.requires
 CMakeFiles/21CPlusPlus.dir/requires: CMakeFiles/21CPlusPlus.dir/lesson7/Cubes.cpp.o.requires
 CMakeFiles/21CPlusPlus.dir/requires: CMakeFiles/21CPlusPlus.dir/lesson7/CubesClientSide.cpp.o.requires
-CMakeFiles/21CPlusPlus.dir/requires: CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o.requires
+CMakeFiles/21CPlusPlus.dir/requires: CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o.requires
 
 .PHONY : CMakeFiles/21CPlusPlus.dir/requires
 

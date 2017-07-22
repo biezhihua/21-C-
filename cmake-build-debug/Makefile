@@ -177,32 +177,32 @@ lesson7/CubesClientSide.cpp.s:
 	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7/CubesClientSide.cpp.s
 .PHONY : lesson7/CubesClientSide.cpp.s
 
-lesson7/GenDataRunnable.o: lesson7/GenDataRunnable.cpp.o
+lesson7/GenData.o: lesson7/GenData.cpp.o
 
-.PHONY : lesson7/GenDataRunnable.o
+.PHONY : lesson7/GenData.o
 
 # target to build an object file
-lesson7/GenDataRunnable.cpp.o:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o
-.PHONY : lesson7/GenDataRunnable.cpp.o
+lesson7/GenData.cpp.o:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o
+.PHONY : lesson7/GenData.cpp.o
 
-lesson7/GenDataRunnable.i: lesson7/GenDataRunnable.cpp.i
+lesson7/GenData.i: lesson7/GenData.cpp.i
 
-.PHONY : lesson7/GenDataRunnable.i
+.PHONY : lesson7/GenData.i
 
 # target to preprocess a source file
-lesson7/GenDataRunnable.cpp.i:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.i
-.PHONY : lesson7/GenDataRunnable.cpp.i
+lesson7/GenData.cpp.i:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.i
+.PHONY : lesson7/GenData.cpp.i
 
-lesson7/GenDataRunnable.s: lesson7/GenDataRunnable.cpp.s
+lesson7/GenData.s: lesson7/GenData.cpp.s
 
-.PHONY : lesson7/GenDataRunnable.s
+.PHONY : lesson7/GenData.s
 
 # target to generate assembly for a file
-lesson7/GenDataRunnable.cpp.s:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.s
-.PHONY : lesson7/GenDataRunnable.cpp.s
+lesson7/GenData.cpp.s:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.s
+.PHONY : lesson7/GenData.cpp.s
 
 lesson7/main.o: lesson7/main.cpp.o
 
@@ -246,9 +246,9 @@ help:
 	@echo "... lesson7/CubesClientSide.o"
 	@echo "... lesson7/CubesClientSide.i"
 	@echo "... lesson7/CubesClientSide.s"
-	@echo "... lesson7/GenDataRunnable.o"
-	@echo "... lesson7/GenDataRunnable.i"
-	@echo "... lesson7/GenDataRunnable.s"
+	@echo "... lesson7/GenData.o"
+	@echo "... lesson7/GenData.i"
+	@echo "... lesson7/GenData.s"
 	@echo "... lesson7/main.o"
 	@echo "... lesson7/main.i"
 	@echo "... lesson7/main.s"

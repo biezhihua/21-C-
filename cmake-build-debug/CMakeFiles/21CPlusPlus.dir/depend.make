@@ -4,6 +4,15 @@
 CMakeFiles/21CPlusPlus.dir/lesson7/Cubes.cpp.o: ../lesson7/Cubes.cpp
 CMakeFiles/21CPlusPlus.dir/lesson7/Cubes.cpp.o: ../lesson7/Cubes.h
 
+CMakeFiles/21CPlusPlus.dir/lesson7/CubesClientSide.cpp.o: ../lesson7/Cubes.h
+CMakeFiles/21CPlusPlus.dir/lesson7/CubesClientSide.cpp.o: ../lesson7/CubesClientSide.cpp
+CMakeFiles/21CPlusPlus.dir/lesson7/CubesClientSide.cpp.o: ../lesson7/CubesClientSide.h
+
+CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o: ../lesson7/GenData.cpp
+CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o: ../lesson7/GenData.h
+
 CMakeFiles/21CPlusPlus.dir/lesson7/main.cpp.o: ../lesson7/Cubes.h
+CMakeFiles/21CPlusPlus.dir/lesson7/main.cpp.o: ../lesson7/CubesClientSide.h
+CMakeFiles/21CPlusPlus.dir/lesson7/main.cpp.o: ../lesson7/GenData.h
 CMakeFiles/21CPlusPlus.dir/lesson7/main.cpp.o: ../lesson7/main.cpp
 

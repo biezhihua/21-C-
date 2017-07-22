@@ -9,12 +9,26 @@
 /Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/Cubes.cpp
 Cubes.h
 /Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/Cubes.h
-iostream
--
+
+/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/Cubes.h
 vector
 -
 
+/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/CubesClientSide.cpp
+CubesClientSide.h
+/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/CubesClientSide.h
+
+/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/CubesClientSide.h
+Cubes.h
 /Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/Cubes.h
+
+/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/GenData.cpp
+GenData.h
+/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/GenData.h
+
+/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/GenData.h
+iostream
+-
 vector
 -
 
@@ -31,6 +45,10 @@ array
 -
 Cubes.h
 /Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/Cubes.h
+CubesClientSide.h
+/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/CubesClientSide.h
+GenData.h
+/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/GenData.h
 vector
 -
 
