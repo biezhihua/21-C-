@@ -3,6 +3,7 @@
 //
 
 #include "GenData.h"
+#include "CubesClientSide.h"
 
 vector<float> GenData::CUBE_NORMAL_DATA = {
         // Front face
@@ -261,4 +262,34 @@ vector<float> *GenData::generateCubeData(float *point1,
         }
     }
     return cubeData;
+}
+
+Cubes *GenData::genCube(int requestedCubeFactor, bool useVBOs, bool useStride) {
+    try {
+        vector<float> *cubeData = generatorCubeData(requestedCubeFactor, useVBOs, useStride);
+
+        CubesClientSide *cubesClientSide = new CubesClientSide(
+                &GenData::CUBE_NORMAL_DATA,
+                &GenData::CUBE_TEXTURE_COORDINATE_DATA, cubeData, requestedCubeFactor);
+
+        GenData::actualCubeFactor = requestedCubeFactor;
+        GenData::useVBOs = useVBOs;
+        GenData::useStride = useStride;
+
+        return cubesClientSide;
+    } catch (exception) {
+        return nullptr;
+    }
+}
+
+int GenData::getActualCubeFactor() const {
+    return actualCubeFactor;
+}
+
+bool GenData::isUseVBOs() const {
+    return useVBOs;
+}
+
+bool GenData::isUseStride() const {
+    return useStride;
 }

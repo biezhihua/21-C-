@@ -25,12 +25,16 @@ Cubes.h
 /Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/GenData.cpp
 GenData.h
 /Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/GenData.h
+CubesClientSide.h
+/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/CubesClientSide.h
 
 /Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/GenData.h
 iostream
 -
 vector
 -
+Cubes.h
+/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/Cubes.h
 
 /Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/main.cpp
 cstring

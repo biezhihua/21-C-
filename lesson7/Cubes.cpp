@@ -28,7 +28,6 @@ void Cubes::getInterleavedBuffer(vector<float> *cubePositions, vector<float> *cu
     int cubePositionOffset = 0;
     int cubeNormalOffset = 0;
     int cubeTextureOffset = 0;
-
 }
 
 
