@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/21CPlusPlus.dir/lesson7/main.cpp.o"
   "CMakeFiles/21CPlusPlus.dir/lesson7/Cubes.cpp.o"
+  "CMakeFiles/21CPlusPlus.dir/lesson7/CubesClientSide.cpp.o"
+  "CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o"
   "21CPlusPlus.pdb"
   "21CPlusPlus"
 )

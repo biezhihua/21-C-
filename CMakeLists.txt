@@ -7,6 +7,6 @@ set(SOURCE_FILES
         lesson7/main.cpp
         lesson7/Cubes.h
         lesson7/Cubes.cpp
-        )
+        lesson7/CubesClientSide.cpp lesson7/CubesClientSide.h lesson7/GenData.cpp lesson7/GenData.h)
 
 add_executable(21CPlusPlus ${SOURCE_FILES})

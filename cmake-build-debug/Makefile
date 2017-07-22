@@ -150,6 +150,60 @@ lesson7/Cubes.cpp.s:
 	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7/Cubes.cpp.s
 .PHONY : lesson7/Cubes.cpp.s
 
+lesson7/CubesClientSide.o: lesson7/CubesClientSide.cpp.o
+
+.PHONY : lesson7/CubesClientSide.o
+
+# target to build an object file
+lesson7/CubesClientSide.cpp.o:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7/CubesClientSide.cpp.o
+.PHONY : lesson7/CubesClientSide.cpp.o
+
+lesson7/CubesClientSide.i: lesson7/CubesClientSide.cpp.i
+
+.PHONY : lesson7/CubesClientSide.i
+
+# target to preprocess a source file
+lesson7/CubesClientSide.cpp.i:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7/CubesClientSide.cpp.i
+.PHONY : lesson7/CubesClientSide.cpp.i
+
+lesson7/CubesClientSide.s: lesson7/CubesClientSide.cpp.s
+
+.PHONY : lesson7/CubesClientSide.s
+
+# target to generate assembly for a file
+lesson7/CubesClientSide.cpp.s:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7/CubesClientSide.cpp.s
+.PHONY : lesson7/CubesClientSide.cpp.s
+
+lesson7/GenDataRunnable.o: lesson7/GenDataRunnable.cpp.o
+
+.PHONY : lesson7/GenDataRunnable.o
+
+# target to build an object file
+lesson7/GenDataRunnable.cpp.o:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.o
+.PHONY : lesson7/GenDataRunnable.cpp.o
+
+lesson7/GenDataRunnable.i: lesson7/GenDataRunnable.cpp.i
+
+.PHONY : lesson7/GenDataRunnable.i
+
+# target to preprocess a source file
+lesson7/GenDataRunnable.cpp.i:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.i
+.PHONY : lesson7/GenDataRunnable.cpp.i
+
+lesson7/GenDataRunnable.s: lesson7/GenDataRunnable.cpp.s
+
+.PHONY : lesson7/GenDataRunnable.s
+
+# target to generate assembly for a file
+lesson7/GenDataRunnable.cpp.s:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7/GenDataRunnable.cpp.s
+.PHONY : lesson7/GenDataRunnable.cpp.s
+
 lesson7/main.o: lesson7/main.cpp.o
 
 .PHONY : lesson7/main.o
@@ -189,6 +243,12 @@ help:
 	@echo "... lesson7/Cubes.o"
 	@echo "... lesson7/Cubes.i"
 	@echo "... lesson7/Cubes.s"
+	@echo "... lesson7/CubesClientSide.o"
+	@echo "... lesson7/CubesClientSide.i"
+	@echo "... lesson7/CubesClientSide.s"
+	@echo "... lesson7/GenDataRunnable.o"
+	@echo "... lesson7/GenDataRunnable.i"
+	@echo "... lesson7/GenDataRunnable.s"
 	@echo "... lesson7/main.o"
 	@echo "... lesson7/main.i"
 	@echo "... lesson7/main.s"
