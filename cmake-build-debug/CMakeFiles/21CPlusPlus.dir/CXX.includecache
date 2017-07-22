@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,7 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson9_类和对象/Copy_construct_Line.cpp
+/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/Cubes.cpp
+Cubes.h
+/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/Cubes.h
 iostream
+-
+vector
+-
+
+/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/Cubes.h
+vector
+-
+
+/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/main.cpp
+cstring
+-
+algorithm
+-
+iostream
+-
+iostream
+-
+array
+-
+Cubes.h
+/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/Cubes.h
+vector
 -
 

@@ -4,6 +4,9 @@ project(21CPlusPlus)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
-        lesson9_类和对象/Copy_construct_Line.cpp)
+        lesson7/main.cpp
+        lesson7/Cubes.h
+        lesson7/Cubes.cpp
+        )
 
 add_executable(21CPlusPlus ${SOURCE_FILES})

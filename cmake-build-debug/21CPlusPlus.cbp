@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson9_类和对象/Copy_construct_Line.cpp">
+		<Unit filename="/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/Cubes.cpp">
+			<Option target="21CPlusPlus"/>
+		</Unit>
+		<Unit filename="/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/Cubes.h">
+			<Option target="21CPlusPlus"/>
+		</Unit>
+		<Unit filename="/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/main.cpp">
 			<Option target="21CPlusPlus"/>
 		</Unit>
 		<Unit filename="/Users/biezhihua/studyspace/21天学通CPlusPlus/CMakeLists.txt">

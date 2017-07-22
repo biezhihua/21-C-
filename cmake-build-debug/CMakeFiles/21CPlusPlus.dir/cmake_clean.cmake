@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/Copy_construct_Line.cpp.o"
+  "CMakeFiles/21CPlusPlus.dir/lesson7/main.cpp.o"
+  "CMakeFiles/21CPlusPlus.dir/lesson7/Cubes.cpp.o"
   "21CPlusPlus.pdb"
   "21CPlusPlus"
 )
