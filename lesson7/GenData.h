@@ -28,23 +28,13 @@ private:
     // What's more is that the texture coordinates are the same for every face.
     static vector<float> CUBE_TEXTURE_COORDINATE_DATA;
 
-    int actualCubeFactor;
-
-    bool useVBOs = true;
-
-    bool useStride = true;
-
-    vector<float> *generateCubeData(float *point1, float *point2, float *point3, float *point4, float *point5, float *point6, float *point7, float *point8, int elementsPerPoint);
+    vector<float> *
+    generateCubeData(float *point1, float *point2, float *point3, float *point4, float *point5,
+                     float *point6, float *point7, float *point8, int elementsPerPoint);
 
     vector<float> *generatorCubeData(int requestedCubeFactor, bool toggleVbos, bool toggleStride);
 
 public:
-
-    int getActualCubeFactor() const;
-
-    bool isUseVBOs() const;
-
-    bool isUseStride() const;
 
     Cubes *genCube(int requestedCubeFactor, bool useVBOs, bool useStride);
 };

@@ -5,56 +5,6 @@
 #include "GenData.h"
 #include "CubesClientSide.h"
 
-vector<float> GenData::CUBE_NORMAL_DATA = {
-        // Front face
-        0.0f, 0.0f, 1.0f,
-        0.0f, 0.0f, 1.0f,
-        0.0f, 0.0f, 1.0f,
-        0.0f, 0.0f, 1.0f,
-        0.0f, 0.0f, 1.0f,
-        0.0f, 0.0f, 1.0f,
-
-        // Right face
-        1.0f, 0.0f, 0.0f,
-        1.0f, 0.0f, 0.0f,
-        1.0f, 0.0f, 0.0f,
-        1.0f, 0.0f, 0.0f,
-        1.0f, 0.0f, 0.0f,
-        1.0f, 0.0f, 0.0f,
-
-        // Back face
-        0.0f, 0.0f, -1.0f,
-        0.0f, 0.0f, -1.0f,
-        0.0f, 0.0f, -1.0f,
-        0.0f, 0.0f, -1.0f,
-        0.0f, 0.0f, -1.0f,
-        0.0f, 0.0f, -1.0f,
-
-        // Left face
-        -1.0f, 0.0f, 0.0f,
-        -1.0f, 0.0f, 0.0f,
-        -1.0f, 0.0f, 0.0f,
-        -1.0f, 0.0f, 0.0f,
-        -1.0f, 0.0f, 0.0f,
-        -1.0f, 0.0f, 0.0f,
-
-        // Top face
-        0.0f, 1.0f, 0.0f,
-        0.0f, 1.0f, 0.0f,
-        0.0f, 1.0f, 0.0f,
-        0.0f, 1.0f, 0.0f,
-        0.0f, 1.0f, 0.0f,
-        0.0f, 1.0f, 0.0f,
-
-        // Bottom face
-        0.0f, -1.0f, 0.0f,
-        0.0f, -1.0f, 0.0f,
-        0.0f, -1.0f, 0.0f,
-        0.0f, -1.0f, 0.0f,
-        0.0f, -1.0f, 0.0f,
-        0.0f, -1.0f, 0.0f
-};
-
 vector<float> GenData::CUBE_TEXTURE_COORDINATE_DATA = {
         // Front face
         0.0f, 0.0f,
@@ -106,9 +56,61 @@ vector<float> GenData::CUBE_TEXTURE_COORDINATE_DATA = {
 };
 
 
-vector<float> *GenData::generatorCubeData(int requestedCubeFactor, bool toggleVbos, bool toggleStride) {
+vector<float> GenData::CUBE_NORMAL_DATA = {
+        // Front face
+        0.0f, 0.0f, 1.0f,
+        0.0f, 0.0f, 1.0f,
+        0.0f, 0.0f, 1.0f,
+        0.0f, 0.0f, 1.0f,
+        0.0f, 0.0f, 1.0f,
+        0.0f, 0.0f, 1.0f,
 
-    vector<float> *cubePositionData = new vector<float>();
+        // Right face
+        1.0f, 0.0f, 0.0f,
+        1.0f, 0.0f, 0.0f,
+        1.0f, 0.0f, 0.0f,
+        1.0f, 0.0f, 0.0f,
+        1.0f, 0.0f, 0.0f,
+        1.0f, 0.0f, 0.0f,
+
+        // Back face
+        0.0f, 0.0f, -1.0f,
+        0.0f, 0.0f, -1.0f,
+        0.0f, 0.0f, -1.0f,
+        0.0f, 0.0f, -1.0f,
+        0.0f, 0.0f, -1.0f,
+        0.0f, 0.0f, -1.0f,
+
+        // Left face
+        -1.0f, 0.0f, 0.0f,
+        -1.0f, 0.0f, 0.0f,
+        -1.0f, 0.0f, 0.0f,
+        -1.0f, 0.0f, 0.0f,
+        -1.0f, 0.0f, 0.0f,
+        -1.0f, 0.0f, 0.0f,
+
+        // Top face
+        0.0f, 1.0f, 0.0f,
+        0.0f, 1.0f, 0.0f,
+        0.0f, 1.0f, 0.0f,
+        0.0f, 1.0f, 0.0f,
+        0.0f, 1.0f, 0.0f,
+        0.0f, 1.0f, 0.0f,
+
+        // Bottom face
+        0.0f, -1.0f, 0.0f,
+        0.0f, -1.0f, 0.0f,
+        0.0f, -1.0f, 0.0f,
+        0.0f, -1.0f, 0.0f,
+        0.0f, -1.0f, 0.0f,
+        0.0f, -1.0f, 0.0f
+};
+
+
+vector<float> *
+GenData::generatorCubeData(int requestedCubeFactor, bool toggleVbos, bool toggleStride) {
+
+    auto *cubePositionData = new vector<float>();
 
     int cubePositionDataOffset = 0;
 
@@ -141,17 +143,17 @@ vector<float> *GenData::generatorCubeData(int requestedCubeFactor, bool toggleVb
                 float p7p[] = {x1, y1, z1};
                 float p8p[] = {x2, y1, z1};
 
-                vector<float> *thisCubePositionData = generateCubeData(p1p, p2p, p3p, p4p, p5p, p6p, p7p, p8p,
-                                                                       (sizeof(p1p) / sizeof(*p1p)));
+                vector<float> *thisCubePositionData = generateCubeData(p1p, p2p, p3p, p4p, p5p, p6p,
+                                                                       p7p, p8p,
+                                                                       (sizeof(p1p) /
+                                                                        sizeof(*p1p)));
 
-                cubePositionData->insert(cubePositionData->end(), thisCubePositionData->begin(), thisCubePositionData->end());
+                cubePositionData->insert(cubePositionData->end(), thisCubePositionData->begin(),
+                                         thisCubePositionData->end());
                 cubePositionDataOffset += thisCubePositionData->size();
-
-                delete thisCubePositionData;
             }
         }
     }
-
     return cubePositionData;
 }
 
@@ -265,31 +267,17 @@ vector<float> *GenData::generateCubeData(float *point1,
 }
 
 Cubes *GenData::genCube(int requestedCubeFactor, bool useVBOs, bool useStride) {
-    try {
-        vector<float> *cubeData = generatorCubeData(requestedCubeFactor, useVBOs, useStride);
+    vector<float> *cubeData = generatorCubeData(requestedCubeFactor, useVBOs, useStride);
 
-        CubesClientSide *cubesClientSide = new CubesClientSide(
-                &GenData::CUBE_NORMAL_DATA,
-                &GenData::CUBE_TEXTURE_COORDINATE_DATA, cubeData, requestedCubeFactor);
+    CubesClientSide *cubesClientSide = new CubesClientSide(cubeData,
+                                                           &GenData::CUBE_NORMAL_DATA,
+                                                           &GenData::CUBE_TEXTURE_COORDINATE_DATA,
+                                                           requestedCubeFactor);
 
-        GenData::actualCubeFactor = requestedCubeFactor;
-        GenData::useVBOs = useVBOs;
-        GenData::useStride = useStride;
+    cubesClientSide->setUseVBOs(useVBOs);
+    cubesClientSide->setUseStride(useStride);
+    cubesClientSide->setActualCubeFactor(requestedCubeFactor);
+    cubesClientSide->setLastRequestedCubeFactor(requestedCubeFactor);
 
-        return cubesClientSide;
-    } catch (exception) {
-        return nullptr;
-    }
-}
-
-int GenData::getActualCubeFactor() const {
-    return actualCubeFactor;
-}
-
-bool GenData::isUseVBOs() const {
-    return useVBOs;
-}
-
-bool GenData::isUseStride() const {
-    return useStride;
+    return cubesClientSide;
 }
