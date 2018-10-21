@@ -4,10 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/Cubes.cpp" "/Users/biezhihua/studyspace/21天学通CPlusPlus/cmake-build-debug/CMakeFiles/21CPlusPlus.dir/lesson7/Cubes.cpp.o"
-  "/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/CubesClientSide.cpp" "/Users/biezhihua/studyspace/21天学通CPlusPlus/cmake-build-debug/CMakeFiles/21CPlusPlus.dir/lesson7/CubesClientSide.cpp.o"
-  "/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/GenData.cpp" "/Users/biezhihua/studyspace/21天学通CPlusPlus/cmake-build-debug/CMakeFiles/21CPlusPlus.dir/lesson7/GenData.cpp.o"
-  "/Users/biezhihua/studyspace/21天学通CPlusPlus/lesson7/main.cpp" "/Users/biezhihua/studyspace/21天学通CPlusPlus/cmake-build-debug/CMakeFiles/21CPlusPlus.dir/lesson7/main.cpp.o"
+  "/Users/biezhihua/StudySpace/21CPlusPlus/lesson3_使用变量与常量/3.5.cpp" "/Users/biezhihua/StudySpace/21CPlusPlus/cmake-build-debug/CMakeFiles/21CPlusPlus.dir/lesson3_使用变量与常量/3.5.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

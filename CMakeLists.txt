@@ -4,9 +4,11 @@ project(21CPlusPlus)
 set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
-        lesson7/main.cpp
-        lesson7/Cubes.h
-        lesson7/Cubes.cpp
-        lesson7/CubesClientSide.cpp lesson7/CubesClientSide.h lesson7/GenData.cpp lesson7/GenData.h)
+        #        lesson1_绪论/hello_world.cpp
+        #        lesson2_C++程序的组成部分/input.cpp
+        #        lesson2_C++程序的组成部分/sizeof.cpp
+#        lesson3_使用变量与常量/sizeof.cpp
+        lesson3_使用变量与常量/3.5.cpp
+        )
 
 add_executable(21CPlusPlus ${SOURCE_FILES})
