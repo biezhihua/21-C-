@@ -3,6 +3,7 @@
 //
 #include <iostream>
 #include <algorithm>
+#include <vector>
 
 using namespace std;
 
@@ -13,6 +14,13 @@ void displayNums(vector<int> &dynArray) {
     cout << endl;
 }
 
+/**
+ * lambda函数语法如下：
+ *
+ * [optional parameters] (parameter list) {statements;}
+ *
+ * @return
+ */
 int main() {
 
     vector<int> myNumbers;

@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/build
 .PHONY : 21CPlusPlus/fast
 
-lesson3_使用变量与常量/3.5.o: lesson3_使用变量与常量/3.5.cpp.o
+lesson7_使用函数组织代码/7.11.o: lesson7_使用函数组织代码/7.11.cpp.o
 
-.PHONY : lesson3_使用变量与常量/3.5.o
+.PHONY : lesson7_使用函数组织代码/7.11.o
 
 # target to build an object file
-lesson3_使用变量与常量/3.5.cpp.o:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson3_使用变量与常量/3.5.cpp.o
-.PHONY : lesson3_使用变量与常量/3.5.cpp.o
+lesson7_使用函数组织代码/7.11.cpp.o:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7_使用函数组织代码/7.11.cpp.o
+.PHONY : lesson7_使用函数组织代码/7.11.cpp.o
 
-lesson3_使用变量与常量/3.5.i: lesson3_使用变量与常量/3.5.cpp.i
+lesson7_使用函数组织代码/7.11.i: lesson7_使用函数组织代码/7.11.cpp.i
 
-.PHONY : lesson3_使用变量与常量/3.5.i
+.PHONY : lesson7_使用函数组织代码/7.11.i
 
 # target to preprocess a source file
-lesson3_使用变量与常量/3.5.cpp.i:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson3_使用变量与常量/3.5.cpp.i
-.PHONY : lesson3_使用变量与常量/3.5.cpp.i
+lesson7_使用函数组织代码/7.11.cpp.i:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7_使用函数组织代码/7.11.cpp.i
+.PHONY : lesson7_使用函数组织代码/7.11.cpp.i
 
-lesson3_使用变量与常量/3.5.s: lesson3_使用变量与常量/3.5.cpp.s
+lesson7_使用函数组织代码/7.11.s: lesson7_使用函数组织代码/7.11.cpp.s
 
-.PHONY : lesson3_使用变量与常量/3.5.s
+.PHONY : lesson7_使用函数组织代码/7.11.s
 
 # target to generate assembly for a file
-lesson3_使用变量与常量/3.5.cpp.s:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson3_使用变量与常量/3.5.cpp.s
-.PHONY : lesson3_使用变量与常量/3.5.cpp.s
+lesson7_使用函数组织代码/7.11.cpp.s:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7_使用函数组织代码/7.11.cpp.s
+.PHONY : lesson7_使用函数组织代码/7.11.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 21CPlusPlus"
-	@echo "... lesson3_使用变量与常量/3.5.o"
-	@echo "... lesson3_使用变量与常量/3.5.i"
-	@echo "... lesson3_使用变量与常量/3.5.s"
+	@echo "... lesson7_使用函数组织代码/7.11.o"
+	@echo "... lesson7_使用函数组织代码/7.11.i"
+	@echo "... lesson7_使用函数组织代码/7.11.s"
 .PHONY : help
 
 
