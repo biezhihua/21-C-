@@ -12,7 +12,9 @@ set(SOURCE_FILES
         #        lesson7_使用函数组织代码/7.8.cpp
         #        lesson7_使用函数组织代码/7.9.cpp
         #        lesson7_使用函数组织代码/7.10.cpp
-        lesson7_使用函数组织代码/7.11.cpp
-        )
+        #        lesson7_使用函数组织代码/7.11.cpp
+        #        lesson8_阐述指针和引用/8.4.cpp
+        #        lesson8_阐述指针和引用/8.5.cpp
+        lesson8_阐述指针和引用/8.6.cpp)
 
 add_executable(21CPlusPlus ${SOURCE_FILES})

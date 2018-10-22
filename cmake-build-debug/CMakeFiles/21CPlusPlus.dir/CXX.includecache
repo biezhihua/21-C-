@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/biezhihua/StudySpace/21CPlusPlus/lesson7_使用函数组织代码/7.11.cpp
+/Users/biezhihua/StudySpace/21CPlusPlus/lesson8_阐述指针和引用/8.6.cpp
 iostream
--
-algorithm
--
-vector
 -
 

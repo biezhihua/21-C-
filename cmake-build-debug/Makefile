@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/build
 .PHONY : 21CPlusPlus/fast
 
-lesson7_使用函数组织代码/7.11.o: lesson7_使用函数组织代码/7.11.cpp.o
+lesson8_阐述指针和引用/8.6.o: lesson8_阐述指针和引用/8.6.cpp.o
 
-.PHONY : lesson7_使用函数组织代码/7.11.o
+.PHONY : lesson8_阐述指针和引用/8.6.o
 
 # target to build an object file
-lesson7_使用函数组织代码/7.11.cpp.o:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7_使用函数组织代码/7.11.cpp.o
-.PHONY : lesson7_使用函数组织代码/7.11.cpp.o
+lesson8_阐述指针和引用/8.6.cpp.o:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson8_阐述指针和引用/8.6.cpp.o
+.PHONY : lesson8_阐述指针和引用/8.6.cpp.o
 
-lesson7_使用函数组织代码/7.11.i: lesson7_使用函数组织代码/7.11.cpp.i
+lesson8_阐述指针和引用/8.6.i: lesson8_阐述指针和引用/8.6.cpp.i
 
-.PHONY : lesson7_使用函数组织代码/7.11.i
+.PHONY : lesson8_阐述指针和引用/8.6.i
 
 # target to preprocess a source file
-lesson7_使用函数组织代码/7.11.cpp.i:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7_使用函数组织代码/7.11.cpp.i
-.PHONY : lesson7_使用函数组织代码/7.11.cpp.i
+lesson8_阐述指针和引用/8.6.cpp.i:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson8_阐述指针和引用/8.6.cpp.i
+.PHONY : lesson8_阐述指针和引用/8.6.cpp.i
 
-lesson7_使用函数组织代码/7.11.s: lesson7_使用函数组织代码/7.11.cpp.s
+lesson8_阐述指针和引用/8.6.s: lesson8_阐述指针和引用/8.6.cpp.s
 
-.PHONY : lesson7_使用函数组织代码/7.11.s
+.PHONY : lesson8_阐述指针和引用/8.6.s
 
 # target to generate assembly for a file
-lesson7_使用函数组织代码/7.11.cpp.s:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson7_使用函数组织代码/7.11.cpp.s
-.PHONY : lesson7_使用函数组织代码/7.11.cpp.s
+lesson8_阐述指针和引用/8.6.cpp.s:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson8_阐述指针和引用/8.6.cpp.s
+.PHONY : lesson8_阐述指针和引用/8.6.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 21CPlusPlus"
-	@echo "... lesson7_使用函数组织代码/7.11.o"
-	@echo "... lesson7_使用函数组织代码/7.11.i"
-	@echo "... lesson7_使用函数组织代码/7.11.s"
+	@echo "... lesson8_阐述指针和引用/8.6.o"
+	@echo "... lesson8_阐述指针和引用/8.6.i"
+	@echo "... lesson8_阐述指针和引用/8.6.s"
 .PHONY : help
 
 
