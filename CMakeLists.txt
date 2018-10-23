@@ -15,6 +15,13 @@ set(SOURCE_FILES
         #        lesson7_使用函数组织代码/7.11.cpp
         #        lesson8_阐述指针和引用/8.4.cpp
         #        lesson8_阐述指针和引用/8.5.cpp
-        lesson8_阐述指针和引用/8.6.cpp)
+        #        lesson8_阐述指针和引用/8.6.cpp
+        #        lesson8_阐述指针和引用/8.7.cpp
+        #        lesson8_阐述指针和引用/8.9.cpp
+        #        lesson8_阐述指针和引用/8.10.cpp
+        #        lesson8_阐述指针和引用/8.11.cpp
+
+        lesson8_阐述指针和引用/8.12.cpp lesson8_阐述指针和引用/8.13.cpp)
+
 
 add_executable(21CPlusPlus ${SOURCE_FILES})

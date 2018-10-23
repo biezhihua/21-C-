@@ -14,7 +14,6 @@ int main() {
 
     int *pNumbers = new int[inputNums];
 
-
     cout << "Successfully allocated memory for " << inputNums << " integers " << endl;
 
     for (int index = 0; index < inputNums; ++index) {
@@ -25,7 +24,7 @@ int main() {
     cout << "Displaying all numbers input: " << endl;
     int *pCopy = pNumbers;
     for (int index = 0; index < inputNums; ++index) {
-        cout << *(pCopy + index) << " ";
+        cout << *(pCopy++) << " ";
     }
 
     cout << endl;
