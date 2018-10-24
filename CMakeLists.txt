@@ -20,8 +20,16 @@ set(SOURCE_FILES
         #        lesson8_阐述指针和引用/8.9.cpp
         #        lesson8_阐述指针和引用/8.10.cpp
         #        lesson8_阐述指针和引用/8.11.cpp
-
-        lesson8_阐述指针和引用/8.12.cpp lesson8_阐述指针和引用/8.13.cpp)
+        #        lesson8_阐述指针和引用/8.12.cpp
+        #        lesson8_阐述指针和引用/8.13.cpp
+        #        lesson9_类和对象/9.1.cpp
+        #        lesson9_类和对象/9.3.cpp
+        #        lesson9_类和对象/9.7.cpp
+        #        lesson9_类和对象/9.8.cpp
+        #        lesson9_类和对象/9.9.cpp
+        #        lesson9_类和对象/9.10.cpp
+        #        lesson9_类和对象/9.11.cpp
+        lesson9_类和对象/9.12.cpp)
 
 
 add_executable(21CPlusPlus ${SOURCE_FILES})

@@ -10,11 +10,12 @@ class President {
 private:
 
     // private default constructor
-    President() { }
+    President() {}
 
     // private copy constructor
     President(const President &president);
 
+    // private operator =
     const President &operator=(const President &);
 
     string name;
@@ -36,9 +37,9 @@ public:
 };
 
 int main() {
-    President &onlyPresident = President::getInstance();
+    President::getInstance().setName("biezhihua");
 
-    onlyPresident.setName("biezhihua");
+    President::getInstance().setName("haha");
 
 //    President second;
 //    President * thrird = new President();

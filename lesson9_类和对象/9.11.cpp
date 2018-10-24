@@ -8,18 +8,25 @@ using namespace std;
 
 class MonsterDB {
 private:
-    ~MonsterDB() { }
+    ~MonsterDB() {}
 
 public:
     static void destroyInstance(MonsterDB *pInstance) {
         delete pInstance;
+    }
+
+    void destroyInstance() {
+        delete this;
     }
 };
 
 int main() {
     MonsterDB *pInstance = new MonsterDB();
 
-    MonsterDB::destroyInstance(pInstance);
+//    MonsterDB::destroyInstance(pInstance);
+
+    pInstance->destroyInstance();
+
     return 0;
 }
 

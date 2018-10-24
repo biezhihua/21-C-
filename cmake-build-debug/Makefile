@@ -123,59 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/build
 .PHONY : 21CPlusPlus/fast
 
-lesson8_阐述指针和引用/8.12.o: lesson8_阐述指针和引用/8.12.cpp.o
+lesson9_类和对象/9.12.o: lesson9_类和对象/9.12.cpp.o
 
-.PHONY : lesson8_阐述指针和引用/8.12.o
-
-# target to build an object file
-lesson8_阐述指针和引用/8.12.cpp.o:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson8_阐述指针和引用/8.12.cpp.o
-.PHONY : lesson8_阐述指针和引用/8.12.cpp.o
-
-lesson8_阐述指针和引用/8.12.i: lesson8_阐述指针和引用/8.12.cpp.i
-
-.PHONY : lesson8_阐述指针和引用/8.12.i
-
-# target to preprocess a source file
-lesson8_阐述指针和引用/8.12.cpp.i:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson8_阐述指针和引用/8.12.cpp.i
-.PHONY : lesson8_阐述指针和引用/8.12.cpp.i
-
-lesson8_阐述指针和引用/8.12.s: lesson8_阐述指针和引用/8.12.cpp.s
-
-.PHONY : lesson8_阐述指针和引用/8.12.s
-
-# target to generate assembly for a file
-lesson8_阐述指针和引用/8.12.cpp.s:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson8_阐述指针和引用/8.12.cpp.s
-.PHONY : lesson8_阐述指针和引用/8.12.cpp.s
-
-lesson8_阐述指针和引用/8.13.o: lesson8_阐述指针和引用/8.13.cpp.o
-
-.PHONY : lesson8_阐述指针和引用/8.13.o
+.PHONY : lesson9_类和对象/9.12.o
 
 # target to build an object file
-lesson8_阐述指针和引用/8.13.cpp.o:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson8_阐述指针和引用/8.13.cpp.o
-.PHONY : lesson8_阐述指针和引用/8.13.cpp.o
+lesson9_类和对象/9.12.cpp.o:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.12.cpp.o
+.PHONY : lesson9_类和对象/9.12.cpp.o
 
-lesson8_阐述指针和引用/8.13.i: lesson8_阐述指针和引用/8.13.cpp.i
+lesson9_类和对象/9.12.i: lesson9_类和对象/9.12.cpp.i
 
-.PHONY : lesson8_阐述指针和引用/8.13.i
+.PHONY : lesson9_类和对象/9.12.i
 
 # target to preprocess a source file
-lesson8_阐述指针和引用/8.13.cpp.i:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson8_阐述指针和引用/8.13.cpp.i
-.PHONY : lesson8_阐述指针和引用/8.13.cpp.i
+lesson9_类和对象/9.12.cpp.i:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.12.cpp.i
+.PHONY : lesson9_类和对象/9.12.cpp.i
 
-lesson8_阐述指针和引用/8.13.s: lesson8_阐述指针和引用/8.13.cpp.s
+lesson9_类和对象/9.12.s: lesson9_类和对象/9.12.cpp.s
 
-.PHONY : lesson8_阐述指针和引用/8.13.s
+.PHONY : lesson9_类和对象/9.12.s
 
 # target to generate assembly for a file
-lesson8_阐述指针和引用/8.13.cpp.s:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson8_阐述指针和引用/8.13.cpp.s
-.PHONY : lesson8_阐述指针和引用/8.13.cpp.s
+lesson9_类和对象/9.12.cpp.s:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.12.cpp.s
+.PHONY : lesson9_类和对象/9.12.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 21CPlusPlus"
-	@echo "... lesson8_阐述指针和引用/8.12.o"
-	@echo "... lesson8_阐述指针和引用/8.12.i"
-	@echo "... lesson8_阐述指针和引用/8.12.s"
-	@echo "... lesson8_阐述指针和引用/8.13.o"
-	@echo "... lesson8_阐述指针和引用/8.13.i"
-	@echo "... lesson8_阐述指针和引用/8.13.s"
+	@echo "... lesson9_类和对象/9.12.o"
+	@echo "... lesson9_类和对象/9.12.i"
+	@echo "... lesson9_类和对象/9.12.s"
 .PHONY : help
 
 
