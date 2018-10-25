@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/biezhihua/StudySpace/21CPlusPlus/lesson9_类和对象/9.12.cpp" "/Users/biezhihua/StudySpace/21CPlusPlus/cmake-build-debug/CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.12.cpp.o"
+  "/Users/biezhihua/StudySpace/21CPlusPlus/lesson9_类和对象/9.14.cpp" "/Users/biezhihua/StudySpace/21CPlusPlus/cmake-build-debug/CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../lesson9_类和对象"
   )
 
 # Targets to which this target links.

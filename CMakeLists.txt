@@ -1,35 +1,10 @@
-cmake_minimum_required(VERSION 3.7)
+cmake_minimum_required(VERSION 3.12)
 project(21CPlusPlus)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES
-        #        lesson1_绪论/hello_world.cpp
-        #        lesson2_C++程序的组成部分/input.cpp
-        #        lesson2_C++程序的组成部分/sizeof.cpp
-        #        lesson3_使用变量与常量/sizeof.cpp
-        #        lesson3_使用变量与常量/3.5.cpp
-        #        lesson7_使用函数组织代码/7.8.cpp
-        #        lesson7_使用函数组织代码/7.9.cpp
-        #        lesson7_使用函数组织代码/7.10.cpp
-        #        lesson7_使用函数组织代码/7.11.cpp
-        #        lesson8_阐述指针和引用/8.4.cpp
-        #        lesson8_阐述指针和引用/8.5.cpp
-        #        lesson8_阐述指针和引用/8.6.cpp
-        #        lesson8_阐述指针和引用/8.7.cpp
-        #        lesson8_阐述指针和引用/8.9.cpp
-        #        lesson8_阐述指针和引用/8.10.cpp
-        #        lesson8_阐述指针和引用/8.11.cpp
-        #        lesson8_阐述指针和引用/8.12.cpp
-        #        lesson8_阐述指针和引用/8.13.cpp
-        #        lesson9_类和对象/9.1.cpp
-        #        lesson9_类和对象/9.3.cpp
-        #        lesson9_类和对象/9.7.cpp
-        #        lesson9_类和对象/9.8.cpp
-        #        lesson9_类和对象/9.9.cpp
-        #        lesson9_类和对象/9.10.cpp
-        #        lesson9_类和对象/9.11.cpp
-        lesson9_类和对象/9.12.cpp)
+include_directories(lesson9_类和对象)
 
-
-add_executable(21CPlusPlus ${SOURCE_FILES})
+add_executable(21CPlusPlus
+                lesson9_类和对象/9.14.cpp
+        )
