@@ -6,5 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(lesson9_类和对象)
 
 add_executable(21CPlusPlus
-                lesson9_类和对象/9.14.cpp
-        )
+        lesson10_继承/10.10.cpp)

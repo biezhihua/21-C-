@@ -6,13 +6,13 @@
 using namespace std;
 
 class Fish {
-protected:
+private:
     bool freshWaterFish;
 public:
     Fish(bool isFreshWater) : freshWaterFish(isFreshWater) {
     }
 
-    void swim() {
+    virtual void swim() {
         if (freshWaterFish) {
             cout << "Swims in lake" << endl;
         } else {
@@ -26,11 +26,20 @@ class Tuna : public Fish {
 public:
     Tuna() : Fish(false) {
     }
+
+    void swim() {
+        cout << "Tuna swims real fast" << endl;
+    }
+
 };
 
 class Carp : public Fish {
 public:
     Carp() : Fish(true) {
+    }
+
+    void swim() {
+        cout << "Carp swims real slow" << endl;
     }
 };
 
@@ -46,6 +55,10 @@ int main() {
 
     cout << "Dinner:";
     myDinner.swim();
+
+    // :: 作用域解析运算符
+    myLunch.Fish::swim();
+    myDinner.Fish::swim();
 
 
     return 0;

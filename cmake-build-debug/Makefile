@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/build
 .PHONY : 21CPlusPlus/fast
 
-lesson9_类和对象/9.14.o: lesson9_类和对象/9.14.cpp.o
+lesson10_继承/10.10.o: lesson10_继承/10.10.cpp.o
 
-.PHONY : lesson9_类和对象/9.14.o
+.PHONY : lesson10_继承/10.10.o
 
 # target to build an object file
-lesson9_类和对象/9.14.cpp.o:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.o
-.PHONY : lesson9_类和对象/9.14.cpp.o
+lesson10_继承/10.10.cpp.o:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.o
+.PHONY : lesson10_继承/10.10.cpp.o
 
-lesson9_类和对象/9.14.i: lesson9_类和对象/9.14.cpp.i
+lesson10_继承/10.10.i: lesson10_继承/10.10.cpp.i
 
-.PHONY : lesson9_类和对象/9.14.i
+.PHONY : lesson10_继承/10.10.i
 
 # target to preprocess a source file
-lesson9_类和对象/9.14.cpp.i:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.i
-.PHONY : lesson9_类和对象/9.14.cpp.i
+lesson10_继承/10.10.cpp.i:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.i
+.PHONY : lesson10_继承/10.10.cpp.i
 
-lesson9_类和对象/9.14.s: lesson9_类和对象/9.14.cpp.s
+lesson10_继承/10.10.s: lesson10_继承/10.10.cpp.s
 
-.PHONY : lesson9_类和对象/9.14.s
+.PHONY : lesson10_继承/10.10.s
 
 # target to generate assembly for a file
-lesson9_类和对象/9.14.cpp.s:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.s
-.PHONY : lesson9_类和对象/9.14.cpp.s
+lesson10_继承/10.10.cpp.s:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.s
+.PHONY : lesson10_继承/10.10.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 21CPlusPlus"
-	@echo "... lesson9_类和对象/9.14.o"
-	@echo "... lesson9_类和对象/9.14.i"
-	@echo "... lesson9_类和对象/9.14.s"
+	@echo "... lesson10_继承/10.10.o"
+	@echo "... lesson10_继承/10.10.i"
+	@echo "... lesson10_继承/10.10.s"
 .PHONY : help
 
 

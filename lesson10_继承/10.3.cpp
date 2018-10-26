@@ -26,20 +26,11 @@ class Tuna : public Fish {
 public:
     Tuna() : Fish(false) {
     }
-
-    void swim() {
-        cout << "Tuna swims real fast" << endl;
-    }
-
 };
 
 class Carp : public Fish {
 public:
     Carp() : Fish(true) {
-    }
-
-    void swim() {
-        cout << "Carp swims real slow" << endl;
     }
 };
 

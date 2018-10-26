@@ -57,27 +57,27 @@ include CMakeFiles/21CPlusPlus.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/21CPlusPlus.dir/flags.make
 
-CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.o: CMakeFiles/21CPlusPlus.dir/flags.make
-CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.o: ../lesson9_类和对象/9.14.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/biezhihua/StudySpace/21CPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.o -c /Users/biezhihua/StudySpace/21CPlusPlus/lesson9_类和对象/9.14.cpp
+CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.o: CMakeFiles/21CPlusPlus.dir/flags.make
+CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.o: ../lesson10_继承/10.10.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/biezhihua/StudySpace/21CPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.o -c /Users/biezhihua/StudySpace/21CPlusPlus/lesson10_继承/10.10.cpp
 
-CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/biezhihua/StudySpace/21CPlusPlus/lesson9_类和对象/9.14.cpp > CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.i
+CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/biezhihua/StudySpace/21CPlusPlus/lesson10_继承/10.10.cpp > CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.i
 
-CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/biezhihua/StudySpace/21CPlusPlus/lesson9_类和对象/9.14.cpp -o CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.s
+CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/biezhihua/StudySpace/21CPlusPlus/lesson10_继承/10.10.cpp -o CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.s
 
 # Object files for target 21CPlusPlus
 21CPlusPlus_OBJECTS = \
-"CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.o"
+"CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.o"
 
 # External object files for target 21CPlusPlus
 21CPlusPlus_EXTERNAL_OBJECTS =
 
-21CPlusPlus: CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.o
+21CPlusPlus: CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.o
 21CPlusPlus: CMakeFiles/21CPlusPlus.dir/build.make
 21CPlusPlus: CMakeFiles/21CPlusPlus.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/biezhihua/StudySpace/21CPlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 21CPlusPlus"

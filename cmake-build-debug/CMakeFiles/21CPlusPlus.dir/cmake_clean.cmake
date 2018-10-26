@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/21CPlusPlus.dir/lesson9_类和对象/9.14.cpp.o"
+  "CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.o"
   "21CPlusPlus.pdb"
   "21CPlusPlus"
 )
