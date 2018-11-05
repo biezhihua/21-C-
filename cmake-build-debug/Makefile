@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/build
 .PHONY : 21CPlusPlus/fast
 
-lesson10_继承/10.10.o: lesson10_继承/10.10.cpp.o
+lesson11_多态/11.4.o: lesson11_多态/11.4.cpp.o
 
-.PHONY : lesson10_继承/10.10.o
+.PHONY : lesson11_多态/11.4.o
 
 # target to build an object file
-lesson10_继承/10.10.cpp.o:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.o
-.PHONY : lesson10_继承/10.10.cpp.o
+lesson11_多态/11.4.cpp.o:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson11_多态/11.4.cpp.o
+.PHONY : lesson11_多态/11.4.cpp.o
 
-lesson10_继承/10.10.i: lesson10_继承/10.10.cpp.i
+lesson11_多态/11.4.i: lesson11_多态/11.4.cpp.i
 
-.PHONY : lesson10_继承/10.10.i
+.PHONY : lesson11_多态/11.4.i
 
 # target to preprocess a source file
-lesson10_继承/10.10.cpp.i:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.i
-.PHONY : lesson10_继承/10.10.cpp.i
+lesson11_多态/11.4.cpp.i:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson11_多态/11.4.cpp.i
+.PHONY : lesson11_多态/11.4.cpp.i
 
-lesson10_继承/10.10.s: lesson10_继承/10.10.cpp.s
+lesson11_多态/11.4.s: lesson11_多态/11.4.cpp.s
 
-.PHONY : lesson10_继承/10.10.s
+.PHONY : lesson11_多态/11.4.s
 
 # target to generate assembly for a file
-lesson10_继承/10.10.cpp.s:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson10_继承/10.10.cpp.s
-.PHONY : lesson10_继承/10.10.cpp.s
+lesson11_多态/11.4.cpp.s:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson11_多态/11.4.cpp.s
+.PHONY : lesson11_多态/11.4.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 21CPlusPlus"
-	@echo "... lesson10_继承/10.10.o"
-	@echo "... lesson10_继承/10.10.i"
-	@echo "... lesson10_继承/10.10.s"
+	@echo "... lesson11_多态/11.4.o"
+	@echo "... lesson11_多态/11.4.i"
+	@echo "... lesson11_多态/11.4.s"
 .PHONY : help
 
 

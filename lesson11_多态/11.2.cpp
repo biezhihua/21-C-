@@ -15,9 +15,10 @@ public:
 
 class Tuna : public Fish {
 public:
-    void swim() {
+    void swim() override {
         cout << "Tuna swims!" << endl;
     }
+
 };
 
 
