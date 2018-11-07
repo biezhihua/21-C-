@@ -12,7 +12,7 @@ public:
         cout << "Fish swims in water" << endl;
     }
 
-    virtual ~Fish() { }
+    virtual ~Fish() {}
 };
 
 class Tuna : public Fish {
@@ -37,7 +37,7 @@ public:
     }
 };
 
-void detecFishType(Fish *inputFish) {
+void detectFishType(Fish *inputFish) {
     Tuna *pIsTuna = dynamic_cast<Tuna *>(inputFish);
 
     if (pIsTuna) {
@@ -59,11 +59,11 @@ int main() {
     Crap myLunch;
     Tuna myDinner;
 
-    detecFishType(&myDinner);
+    detectFishType(&myDinner);
 
     cout << endl;
 
-    detecFishType(&myLunch);
+    detectFishType(&myLunch);
 
     return 0;
 }

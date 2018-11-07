@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/biezhihua/StudySpace/21CPlusPlus/lesson11_多态/11.8.cpp" "/Users/biezhihua/StudySpace/21CPlusPlus/cmake-build-debug/CMakeFiles/21CPlusPlus.dir/lesson11_多态/11.8.cpp.o"
+  "/Users/biezhihua/StudySpace/21CPlusPlus/lesson14_宏和模板简介/14.5.cpp" "/Users/biezhihua/StudySpace/21CPlusPlus/cmake-build-debug/CMakeFiles/21CPlusPlus.dir/lesson14_宏和模板简介/14.5.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

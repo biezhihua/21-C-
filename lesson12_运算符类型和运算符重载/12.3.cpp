@@ -2,7 +2,7 @@
 // Created by biezhihua on 16-9-19.
 //
 #include <iostream>
-#include <bits/unique_ptr.h>
+#include <memory>
 
 using namespace std;
 
@@ -28,7 +28,7 @@ int main() {
 
     cout << "Integer value is :" << *pDynamicAllocInteger << endl;
 
-    unique_ptr <Date> pHoliday(new Date(25, 11, 2015));
+    unique_ptr<Date> pHoliday(new Date(25, 11, 2015));
     cout << "The new instance of date contains:";
     pHoliday->displayDate();
 
