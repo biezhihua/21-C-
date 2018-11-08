@@ -9,6 +9,7 @@ using namespace std;
 
 int main() {
     vector<int> vectorInts;
+
     vectorInts.push_back(50);
     vectorInts.push_back(52);
     vectorInts.push_back(51);
@@ -17,14 +18,14 @@ int main() {
 
     cout << "The contents of the vector are:" << endl;
 
-    vector<int>::iterator iArrayWalker = vectorInts.begin();
+    auto iArrayWalker = vectorInts.begin();
 
     while (iArrayWalker != vectorInts.end()) {
         cout << *iArrayWalker << endl;
         ++iArrayWalker;
     }
 
-    vector<int>::iterator iElement = find(vectorInts.begin(), vectorInts.end(), 11);
+    auto iElement = find(vectorInts.begin(), vectorInts.end(), 11);
 
     if (iElement != vectorInts.end()) {
         int position = distance(vectorInts.begin(), iElement);
