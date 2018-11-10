@@ -20,7 +20,7 @@ int main() {
     vector<int> vecIntegers(4, 0);
     displayVector(vecIntegers);
 
-    vecIntegers.insert(vecIntegers.begin()+2, 25);
+    vecIntegers.insert(vecIntegers.begin() + 2, 25);
     displayVector(vecIntegers);
 
     vecIntegers.insert(vecIntegers.end(), 2, 45);
@@ -29,9 +29,6 @@ int main() {
 
     vector<int> vecAnother(2, 30);
     displayVector(vecAnother);
-
-
-
 
     return 0;
 }

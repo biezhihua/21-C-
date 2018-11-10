@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/build
 .PHONY : 21CPlusPlus/fast
 
-lesson16_STL_string类/16.7.o: lesson16_STL_string类/16.7.cpp.o
+lesson21_理解函数对象/21.6.o: lesson21_理解函数对象/21.6.cpp.o
 
-.PHONY : lesson16_STL_string类/16.7.o
+.PHONY : lesson21_理解函数对象/21.6.o
 
 # target to build an object file
-lesson16_STL_string类/16.7.cpp.o:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson16_STL_string类/16.7.cpp.o
-.PHONY : lesson16_STL_string类/16.7.cpp.o
+lesson21_理解函数对象/21.6.cpp.o:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson21_理解函数对象/21.6.cpp.o
+.PHONY : lesson21_理解函数对象/21.6.cpp.o
 
-lesson16_STL_string类/16.7.i: lesson16_STL_string类/16.7.cpp.i
+lesson21_理解函数对象/21.6.i: lesson21_理解函数对象/21.6.cpp.i
 
-.PHONY : lesson16_STL_string类/16.7.i
+.PHONY : lesson21_理解函数对象/21.6.i
 
 # target to preprocess a source file
-lesson16_STL_string类/16.7.cpp.i:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson16_STL_string类/16.7.cpp.i
-.PHONY : lesson16_STL_string类/16.7.cpp.i
+lesson21_理解函数对象/21.6.cpp.i:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson21_理解函数对象/21.6.cpp.i
+.PHONY : lesson21_理解函数对象/21.6.cpp.i
 
-lesson16_STL_string类/16.7.s: lesson16_STL_string类/16.7.cpp.s
+lesson21_理解函数对象/21.6.s: lesson21_理解函数对象/21.6.cpp.s
 
-.PHONY : lesson16_STL_string类/16.7.s
+.PHONY : lesson21_理解函数对象/21.6.s
 
 # target to generate assembly for a file
-lesson16_STL_string类/16.7.cpp.s:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson16_STL_string类/16.7.cpp.s
-.PHONY : lesson16_STL_string类/16.7.cpp.s
+lesson21_理解函数对象/21.6.cpp.s:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson21_理解函数对象/21.6.cpp.s
+.PHONY : lesson21_理解函数对象/21.6.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 21CPlusPlus"
-	@echo "... lesson16_STL_string类/16.7.o"
-	@echo "... lesson16_STL_string类/16.7.i"
-	@echo "... lesson16_STL_string类/16.7.s"
+	@echo "... lesson21_理解函数对象/21.6.o"
+	@echo "... lesson21_理解函数对象/21.6.i"
+	@echo "... lesson21_理解函数对象/21.6.s"
 .PHONY : help
 
 

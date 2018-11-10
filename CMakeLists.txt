@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(lesson9_类和对象)
 
 add_executable(21CPlusPlus
-        lesson16_STL_string类/16.7.cpp)
+        lesson21_理解函数对象/21.6.cpp)

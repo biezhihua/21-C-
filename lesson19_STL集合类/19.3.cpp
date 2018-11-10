@@ -13,6 +13,7 @@ using namespace std;
 
 int main() {
     set<int> setIntegers;
+
     setIntegers.insert(100);
     setIntegers.insert(10);
     setIntegers.insert(-1100);

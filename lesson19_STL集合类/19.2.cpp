@@ -12,12 +12,12 @@ void displayContents(const T &input) {
     for (auto iElement = input.cbegin(); iElement != input.cend(); iElement++) {
         cout << *iElement << endl;
     }
-
 }
 
 int main() {
     set<int> setIntegers;
     multiset<int> msetIntegers;
+
     setIntegers.insert(60);
     setIntegers.insert(61);
     setIntegers.insert(22);
@@ -31,13 +31,13 @@ int main() {
     msetIntegers.insert(setIntegers.cbegin(), setIntegers.cend());
     msetIntegers.insert(0033300);
 
-    cout << "Writing the contents of the set to the screen"<<endl;
+    cout << "Writing the contents of the set to the screen" << endl;
 
     displayContents(msetIntegers);
 
 
-    cout << "Number of instances of '3000' in the multiset are:";
-    cout << msetIntegers.count(3000)<< "'"<<endl;
+    cout << "Number of instances of '0033300' in the multiset are:";
+    cout << msetIntegers.count(0033300) << "'" << endl;
 
 
     return 0;

@@ -16,12 +16,11 @@ public:
 int main() {
     using namespace std;
 
-    vector<int> vecMultiplicand,vecMultiplier;
+    vector<int> vecMultiplicand, vecMultiplier;
 
     for (int i = 0; i < 10; ++i) {
         vecMultiplicand.push_back(i);
     }
-
 
     for (int i = 100; i < 110; ++i) {
         vecMultiplier.push_back(i);
@@ -46,8 +45,6 @@ int main() {
     for (int l = 0; l < vecResult.size(); ++l) {
         cout << vecResult[l] << " ";
     }
-
-
 
 
     return 0;

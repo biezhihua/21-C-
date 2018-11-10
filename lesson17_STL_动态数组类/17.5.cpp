@@ -16,7 +16,7 @@ int main() {
     vecInteger.push_back(54);
     vecInteger.push_back(55);
 
-    vector<int>::iterator iElementLocator = vecInteger.begin();
+    auto iElementLocator = vecInteger.begin();
 
     while (iElementLocator != vecInteger.end()) {
         size_t index = distance(vecInteger.begin(), iElementLocator);

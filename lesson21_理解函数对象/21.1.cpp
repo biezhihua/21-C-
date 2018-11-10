@@ -12,12 +12,18 @@
 
 using namespace std;
 
-template <typename  elementType>
+template<typename elementType>
 struct displayElement {
-    void operator()(const elementType & element) const {
+    void operator()(const elementType &element) const {
         cout << element << " ";
     }
 };
+
+template<typename elementType>
+void FunDisplayElement(const elementType &element) {
+    cout << element << " ";
+}
+
 
 int main() {
     vector<int> vecIntegers;
@@ -27,18 +33,16 @@ int main() {
     }
 
     list<char> listChars;
-    for (char i = 'a'; i< 'k'; ++ i) {
+    for (char i = 'a'; i < 'k'; ++i) {
         listChars.push_back(i);
     }
 
-    cout << "displaying the vector of integers:"<<endl;
-
+    cout << "displaying the vector of integers:" << endl;
     for_each(vecIntegers.begin(), vecIntegers.end(), displayElement<int>());
-
-
     cout << endl << endl;
 
-    cout << "displaing the list of characters:"<<endl;
+    cout << "displaying the list of characters:" << endl;
     for_each(listChars.begin(), listChars.end(), displayElement<char>());
+
     return 0;
 }

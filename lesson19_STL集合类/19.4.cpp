@@ -31,24 +31,23 @@ int main() {
 
     cout << "multiset contins " << msetIntegers.size() << " elements";
 
-    cout << "These are: "<<endl;
+    cout << "These are: " << endl;
 
     displayContents(msetIntegers);
 
-    cout << "Please enter a number to be erased from set "<<endl;
+    cout << "Please enter a number to be erased from set " << endl;
     int numberToErase = 0;
     cin >> numberToErase;
 
     cout << "Erasing " << msetIntegers.count(numberToErase);
-    cout << " instances of value "<<numberToErase<<endl;
+    cout << " instances of value " << numberToErase << endl;
 
     // try finding an element
     msetIntegers.erase(numberToErase);
 
-
     cout << "multiset contins " << msetIntegers.size() << " elements";
 
-    cout << "These are: "<<endl;
+    cout << "These are: " << endl;
 
     displayContents(msetIntegers);
 

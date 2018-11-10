@@ -20,7 +20,7 @@ public:
         string str2LowerCase;
         str2LowerCase.resize(str2.size());
 
-//        transform(str2.begin(), str2.end(), str2LowerCase.begin(), tolower);
+        transform(str2.begin(), str2.end(), str2LowerCase.begin(), tolower);
 
         return str1LowerCase < str2LowerCase;
     }
@@ -29,7 +29,7 @@ public:
 template<typename T>
 void displayContents(const T &input) {
     for (auto item = input.cbegin(); item != input.end(); item++) {
-        cout << *item <<endl;
+        cout << *item << endl;
     }
 }
 
