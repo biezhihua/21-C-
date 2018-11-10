@@ -15,12 +15,12 @@ int main() {
     vecnums.push_back(122);
     vecnums.push_back(-122);
 
-    auto boolNum = find_if(vecnums.cbegin(), vecnums.cend(), []( const  int & num) {
+    auto boolNum = find_if(vecnums.cbegin(), vecnums.cend(), [](const int &num) {
         return ((num % 2) == 0);
     });
 
     if (boolNum != vecnums.cend()) {
-        cout << "Event number in collection is :" << *boolNum<<endl;
+        cout << "Event number in collection is :" << *boolNum << endl;
     }
 
     return 0;

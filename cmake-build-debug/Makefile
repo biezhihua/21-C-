@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/build
 .PHONY : 21CPlusPlus/fast
 
-lesson21_理解函数对象/21.6.o: lesson21_理解函数对象/21.6.cpp.o
+lesson22_lambda表达式/22.5.o: lesson22_lambda表达式/22.5.cpp.o
 
-.PHONY : lesson21_理解函数对象/21.6.o
+.PHONY : lesson22_lambda表达式/22.5.o
 
 # target to build an object file
-lesson21_理解函数对象/21.6.cpp.o:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson21_理解函数对象/21.6.cpp.o
-.PHONY : lesson21_理解函数对象/21.6.cpp.o
+lesson22_lambda表达式/22.5.cpp.o:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson22_lambda表达式/22.5.cpp.o
+.PHONY : lesson22_lambda表达式/22.5.cpp.o
 
-lesson21_理解函数对象/21.6.i: lesson21_理解函数对象/21.6.cpp.i
+lesson22_lambda表达式/22.5.i: lesson22_lambda表达式/22.5.cpp.i
 
-.PHONY : lesson21_理解函数对象/21.6.i
+.PHONY : lesson22_lambda表达式/22.5.i
 
 # target to preprocess a source file
-lesson21_理解函数对象/21.6.cpp.i:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson21_理解函数对象/21.6.cpp.i
-.PHONY : lesson21_理解函数对象/21.6.cpp.i
+lesson22_lambda表达式/22.5.cpp.i:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson22_lambda表达式/22.5.cpp.i
+.PHONY : lesson22_lambda表达式/22.5.cpp.i
 
-lesson21_理解函数对象/21.6.s: lesson21_理解函数对象/21.6.cpp.s
+lesson22_lambda表达式/22.5.s: lesson22_lambda表达式/22.5.cpp.s
 
-.PHONY : lesson21_理解函数对象/21.6.s
+.PHONY : lesson22_lambda表达式/22.5.s
 
 # target to generate assembly for a file
-lesson21_理解函数对象/21.6.cpp.s:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson21_理解函数对象/21.6.cpp.s
-.PHONY : lesson21_理解函数对象/21.6.cpp.s
+lesson22_lambda表达式/22.5.cpp.s:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson22_lambda表达式/22.5.cpp.s
+.PHONY : lesson22_lambda表达式/22.5.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 21CPlusPlus"
-	@echo "... lesson21_理解函数对象/21.6.o"
-	@echo "... lesson21_理解函数对象/21.6.i"
-	@echo "... lesson21_理解函数对象/21.6.s"
+	@echo "... lesson22_lambda表达式/22.5.o"
+	@echo "... lesson22_lambda表达式/22.5.i"
+	@echo "... lesson22_lambda表达式/22.5.s"
 .PHONY : help
 
 

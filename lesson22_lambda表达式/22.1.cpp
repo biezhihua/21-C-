@@ -8,7 +8,7 @@
 #include <list>
 #include <iostream>
 
-using  namespace std;
+using namespace std;
 
 int main() {
     vector<int> vecIntegers;
@@ -17,12 +17,12 @@ int main() {
         vecIntegers.push_back(i);
     }
 
-    list<char>  listChars;
-    for (char j = 'a'; j < 'k' ; ++j) {
+    list<char> listChars;
+    for (char j = 'a'; j < 'k'; ++j) {
         listChars.push_back(j);
     }
 
-    cout << "Displaying vector of integers using a lambda:"<<endl;
+    cout << "Displaying vector of integers using a lambda:" << endl;
 
 
     for_each(vecIntegers.begin(), vecIntegers.end(), [](int &item) {
@@ -31,7 +31,7 @@ int main() {
 
     cout << endl;
 
-    for_each(listChars.begin(),listChars.end(), [](char&item) {
+    for_each(listChars.begin(), listChars.end(), [](char &item) {
         cout << item << "";
     });
 
