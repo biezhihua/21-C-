@@ -26,7 +26,7 @@ int main() {
 
     size_t substringPos = strSample.find("day", 0);
     while (substringPos != string::npos) {
-        cout << "\"day\" found at position " << substringPos << end;
+        cout << "\"day\" found at position " << substringPos << endl;
 
         size_t nSearchPosition = substringPos + 1;
 

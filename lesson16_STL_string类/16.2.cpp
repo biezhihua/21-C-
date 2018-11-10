@@ -20,8 +20,17 @@ int main() {
 
     int charOffset = 0;
     string::const_iterator iCharacterLocator;
+
     for (iCharacterLocator = strSTLString.begin(); iCharacterLocator != strSTLString.end(); ++iCharacterLocator) {
         cout << "Character [" << charOffset++ << "] is : " << *iCharacterLocator << endl;
+    }
+
+    cout << endl;
+
+    charOffset = 0;
+    string::iterator iterator1;
+    for (iterator1 = strSTLString.begin(); iterator1 != strSTLString.end(); ++iterator1) {
+        cout << "Character [" << charOffset++ << "] is : " << *iterator1 << endl;
     }
 
     cout << endl;

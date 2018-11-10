@@ -123,32 +123,32 @@ depend:
 	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/build
 .PHONY : 21CPlusPlus/fast
 
-lesson15_标准模板库简介/15.1.o: lesson15_标准模板库简介/15.1.cpp.o
+lesson16_STL_string类/16.7.o: lesson16_STL_string类/16.7.cpp.o
 
-.PHONY : lesson15_标准模板库简介/15.1.o
+.PHONY : lesson16_STL_string类/16.7.o
 
 # target to build an object file
-lesson15_标准模板库简介/15.1.cpp.o:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson15_标准模板库简介/15.1.cpp.o
-.PHONY : lesson15_标准模板库简介/15.1.cpp.o
+lesson16_STL_string类/16.7.cpp.o:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson16_STL_string类/16.7.cpp.o
+.PHONY : lesson16_STL_string类/16.7.cpp.o
 
-lesson15_标准模板库简介/15.1.i: lesson15_标准模板库简介/15.1.cpp.i
+lesson16_STL_string类/16.7.i: lesson16_STL_string类/16.7.cpp.i
 
-.PHONY : lesson15_标准模板库简介/15.1.i
+.PHONY : lesson16_STL_string类/16.7.i
 
 # target to preprocess a source file
-lesson15_标准模板库简介/15.1.cpp.i:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson15_标准模板库简介/15.1.cpp.i
-.PHONY : lesson15_标准模板库简介/15.1.cpp.i
+lesson16_STL_string类/16.7.cpp.i:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson16_STL_string类/16.7.cpp.i
+.PHONY : lesson16_STL_string类/16.7.cpp.i
 
-lesson15_标准模板库简介/15.1.s: lesson15_标准模板库简介/15.1.cpp.s
+lesson16_STL_string类/16.7.s: lesson16_STL_string类/16.7.cpp.s
 
-.PHONY : lesson15_标准模板库简介/15.1.s
+.PHONY : lesson16_STL_string类/16.7.s
 
 # target to generate assembly for a file
-lesson15_标准模板库简介/15.1.cpp.s:
-	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson15_标准模板库简介/15.1.cpp.s
-.PHONY : lesson15_标准模板库简介/15.1.cpp.s
+lesson16_STL_string类/16.7.cpp.s:
+	$(MAKE) -f CMakeFiles/21CPlusPlus.dir/build.make CMakeFiles/21CPlusPlus.dir/lesson16_STL_string类/16.7.cpp.s
+.PHONY : lesson16_STL_string类/16.7.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 21CPlusPlus"
-	@echo "... lesson15_标准模板库简介/15.1.o"
-	@echo "... lesson15_标准模板库简介/15.1.i"
-	@echo "... lesson15_标准模板库简介/15.1.s"
+	@echo "... lesson16_STL_string类/16.7.o"
+	@echo "... lesson16_STL_string类/16.7.i"
+	@echo "... lesson16_STL_string类/16.7.s"
 .PHONY : help
 
 

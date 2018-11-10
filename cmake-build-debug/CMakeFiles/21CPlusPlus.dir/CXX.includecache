@@ -6,10 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/biezhihua/StudySpace/21CPlusPlus/lesson15_标准模板库简介/15.1.cpp
-iostream
+/Users/biezhihua/StudySpace/21CPlusPlus/lesson16_STL_string类/16.7.cpp
+string
 -
-vector
+iostream
 -
 algorithm
 -
